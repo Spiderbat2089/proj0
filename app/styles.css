@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0b0f0f;
+  color: #e5e5e5;
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 16px;
+}
+
+.header {
+  margin-bottom: 8px;
+}
+
+.title {
+  margin-top: 0;
+  color: #b11226;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.card {
+  background: #161b1b; 
+  border: 1px solid #2a2f2f;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 12px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.productTitle {
+  margin: 0 0 6px 0;
+  color: #dcdcdc;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.btn {
+  background: #b11226; 
+  color: #ffffff;
+  border: 1px solid #7a0c19;
+  border-radius: 4px;
+  padding: 10px 14px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn:hover {
+  background: #7a0c19;
+  box-shadow: 0 0 10px rgba(177, 18, 38, 0.6);
+}
+
+.link {
+  background: none;
+  border: none;
+  color: #c5c5c5;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 12px;
+  transition: 0.2s ease;
+}
+
+.link:hover {
+  color: #b11226;
+}
+
+.form {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  background: #0f1414;
+  color: #e5e5e5;
+  border: 1px solid #2a2f2f;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #b11226;
+  box-shadow: 0 0 6px rgba(177, 18, 38, 0.5);
+}
+
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.hint {
+  font-size: 12px;
+  color: #8a8f8f;
+  margin-top: 6px;
+}
